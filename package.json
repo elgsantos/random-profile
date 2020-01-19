@@ -1,0 +1,30 @@
+{
+  "name": "random-profile",
+  "version": "1.0.0",
+  "description": "simple random profile generator",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./scr/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elgsantos/random-profile.git"
+  },
+  "keywords": [
+    "random",
+    "profile",
+    "generator"
+  ],
+  "author": "Eduardo Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elgsantos/random-profile/issues"
+  },
+  "homepage": "https://github.com/elgsantos/random-profile#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
