@@ -1,7 +1,8 @@
 const express = require('express');
+const ProfileController = require('../controllers/ProfileController');
 
 const routes = new express.Router();
 
-routes.get('/', (req, res) => { return res.json('Random profile generator'); })
+routes.get('/', ProfileController.index);
 
 module.exports = routes;

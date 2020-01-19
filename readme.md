@@ -30,3 +30,9 @@ Para fins de desenvolvimento pode ser utilizado o pacote [nodemon](https://www.n
 Pode ser iniciado com o seguinte comando:
 
 >`npm run dev`
+
+## Deploy
+
+O deploy automático está configurado para o heroku através do Procfile, um teste da aplicação pode ser feito no link abaixo.
+
+[Random profile generator](https://random-profile.herokuapp.com/)
