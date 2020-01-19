@@ -25,6 +25,10 @@ Na mesma pasta do package.json, execute o comando para iniciar o servidor:
 
 >`npm start`
 
+O servidor será iniciado na porta `3333` caso disponível, será possível o acesso no link:
+
+[http://localhost:3333/?paises=GBR](http://localhost:3333/?paises=GBR)
+
 Para fins de **desenvolvimento** pode ser utilizado o pacote [nodemon](https://www.npmjs.com/package/nodemon) que sobe novamente o servidor assim que arquivos da aplicação são alterados. 
 
 Pode ser iniciado com o seguinte comando:
