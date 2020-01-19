@@ -2,6 +2,8 @@
 
 ## API para geração de perfil
 
+Desenvolvida para retornar dados aleatórios de perfil de usuário.
+
 A API consiste em um endpoint GET que faz integração com a API [randomprofile.com](https://randomprofile.com/api-for-developers/), considerando um cenário de sucesso.
 
 ## Como configurar o ambiente?
@@ -88,7 +90,7 @@ O deploy automático está configurado para o heroku através do Procfile, um te
 
 [Random profile generator](https://random-profile.herokuapp.com/)
 
-### Exemplo GET
+### Live DEMO
 
 [https://random-profile.herokuapp.com/?paises=GBR](https://random-profile.herokuapp.com/?paises=GBR)
 
