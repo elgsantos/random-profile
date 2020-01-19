@@ -2,7 +2,7 @@
 
 ## API para geração de perfil
 
-A API consiste em um endpoint GET que faz integração com a API [randomprofile.com](https://randomprofile.com/api-for-developers/).
+A API consiste em um endpoint GET que faz integração com a API [randomprofile.com](https://randomprofile.com/api-for-developers/), considerando um cenário de sucesso.
 
 ## Como configurar o ambiente?
 
@@ -25,7 +25,7 @@ Na mesma pasta do package.json, execute o comando para iniciar o servidor:
 
 >`npm start`
 
-Para fins de desenvolvimento pode ser utilizado o pacote [nodemon](https://www.npmjs.com/package/nodemon) que sobe novamente o servidor assim que arquivos da aplicação são alterados. 
+Para fins de **desenvolvimento** pode ser utilizado o pacote [nodemon](https://www.npmjs.com/package/nodemon) que sobe novamente o servidor assim que arquivos da aplicação são alterados. 
 
 Pode ser iniciado com o seguinte comando:
 
@@ -44,7 +44,7 @@ A API espera uma chamada get que retorna um usuário aleatório.
 |     `idadeInicial` | não | int  | Idade mínima do perfil desejado. De `0` a `100`. Valor padrão: `0`.                                                                    |
 |     `idadeFinal` | não | int  | Idade máxima do perfil desejado. De `0` a `100`. Valor padrão: `100`.                                                                    |
 
-**Resposta**
+**Respostas**
 
 ```
 // Usuario retornado da API
@@ -87,6 +87,7 @@ O deploy automático está configurado para o heroku através do Procfile, um te
 ### Exemplo GET
 
 [https://random-profile.herokuapp.com/?paises=GBR](https://random-profile.herokuapp.com/?paises=GBR)
+
 [https://random-profile.herokuapp.com/?paises=GBR&idadeInicial=23](https://random-profile.herokuapp.com/?paises=GBR&idadeInicial=23)
 
 ## Testes
@@ -109,3 +110,6 @@ Deve retornar o status passed.
   Time:        3.582s, estimated 6s
   Ran all test suites.
 ```
+
+## Autor
+* **Eduardo Gomes** - criação da API - [elgsantos](https://github.com/elgsantos/)
