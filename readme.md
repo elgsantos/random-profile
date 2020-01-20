@@ -1,4 +1,4 @@
-# Random user generator
+# Random user profile generator
 
 ## API para geração de perfil
 
