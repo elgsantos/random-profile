@@ -29,7 +29,11 @@ Na mesma pasta do package.json, execute o comando para iniciar o servidor:
 
 O servidor será iniciado na porta `3333` caso disponível, será possível o acesso no link:
 
-[http://localhost:3333/?paises=GBR](http://localhost:3333/?paises=GBR)
+http://localhost:3333/?paises=GBR
+
+ou 
+
+http://localhost:3333?paises=GBR&idadeInicial=23
 
 Para fins de **desenvolvimento** pode ser utilizado o pacote [nodemon](https://www.npmjs.com/package/nodemon) que sobe novamente o servidor assim que arquivos da aplicação são alterados. 
 
@@ -83,18 +87,6 @@ A API espera uma chamada get que retorna um usuário aleatório.
 //Parametro países não foi definido
 "NO_COUNTRY: \"NO_COUNTRY\";\r\n"
 ```
-
-## Deploy
-
-O deploy automático está configurado para o heroku através do Procfile, um teste da aplicação rodando pode ser feito no link abaixo.
-
-[Random profile generator](https://random-profile.herokuapp.com/)
-
-### Live DEMO
-
-[https://random-profile.herokuapp.com/?paises=GBR](https://random-profile.herokuapp.com/?paises=GBR)
-
-[https://random-profile.herokuapp.com/?paises=GBR&idadeInicial=23](https://random-profile.herokuapp.com/?paises=GBR&idadeInicial=23)
 
 ## Testes
 
